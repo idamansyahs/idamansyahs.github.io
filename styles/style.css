@@ -1,0 +1,236 @@
+/* Start Body */
+body {
+    background-color: skyblue;
+    background-image: url(../images/sitek.jpg);
+    color:black;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: green; font-size: 44;
+}
+
+.tes {
+    background-color: pink;
+}
+/* End Body */
+
+/* Start debug */
+.bg-orangered {
+    background-color: orangered
+}
+
+.bg-tomato {
+    background-color: tomato;
+}
+/* End debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: none;
+    width: 90%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: purple;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px blanchedalmond,
+        0 6px 10px 0 grey,
+        0 1px 18px 0 pink;
+}
+
+.menu-primer li {
+    border-right: 1px solid yellow;
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: rgb(230, 222, 212);
+    color: violet;
+    text-decoration: none;
+    }
+    
+
+.menu-primer .active {
+    background-color: purple;
+    color: yellow;
+    text-decoration: none;
+    }
+/* End Menu Primer */
+
+/* Start Main */
+.main-home-one {
+    Float: left;
+    width: 45%;
+}
+
+.main-home-two {
+    float: right;
+    width: 45%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi{
+    height: 95px;
+}
+
+/* Start Main */
+
+/* Start Box */
+.box-heading {
+    background-color: bisque;
+    border: 1px solid khaki;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h2 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: white;
+    border: 1px solid khaki;
+    border-top: 0;
+    margin: 0;
+    padding: 0;
+}
+/* End Box */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Wow Factor */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
+.snip1576 {
+  background-color: #fff;
+  color: #444;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin: 8px;
+  max-width: 315px;
+  min-width: 230px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.snip1576 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1576:after {
+  background-color: #359ad8;
+  height: 0%;
+  bottom: -145%;
+  content: '';
+  left: 0;
+  right: 0;
+  position: absolute;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.snip1576 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1576 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.snip1576 h3 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1576 h3 span {
+  display: block;
+  font-weight: 700;
+}
+
+.snip1576 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1576:hover > img,
+.snip1576.hover > img {
+  opacity: 0.1;
+}
+
+.snip1576:hover:after,
+.snip1576.hover:after {
+  bottom: 95%;
+}
+
+.snip1576:hover figcaption,
+.snip1576.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+
+/* Demo purposes only */
+
+body {
+  background-color: #212121;
+  text-align: center;
+}
+/* End Wow Factor */
